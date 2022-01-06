@@ -4,7 +4,7 @@ pipeline {
         stage('Static Analysis') {
             steps {
                     logstash {
-                        echo 'Run the static analysis to the code '
+                        echo 'Run the static analysis to the code'
                     }                
             }
         }
